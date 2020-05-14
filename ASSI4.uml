@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ASSI4</OriginalElement>
+  <nodes>
+    <node x="888.0" y="456.0">ASSI4.Passenger</node>
+    <node x="0.0" y="522.0">ASSI4.Economy</node>
+    <node x="432.0" y="522.0">ASSI4.FirstClass</node>
+    <node x="528.0" y="907.0">ASSI4.Fly</node>
+    <node x="0.0" y="907.0">ASSI4.Trip</node>
+    <node x="291.25" y="0.0">ASSI4.Seat</node>
+    <node x="973.0" y="0.0">ASSI4.Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ASSI4.Passenger" target="ASSI4.Person">
+      <point x="0.0" y="-192.0" />
+      <point x="0.0" y="203.0" />
+    </edge>
+    <edge source="ASSI4.Economy" target="ASSI4.Seat">
+      <point x="0.0" y="-170.0" />
+      <point x="206.0" y="497.0" />
+      <point x="356.5" y="497.0" />
+      <point x="-65.25" y="236.0" />
+    </edge>
+    <edge source="ASSI4.FirstClass" target="ASSI4.Seat">
+      <point x="0.0" y="-170.0" />
+      <point x="637.5" y="497.0" />
+      <point x="487.0" y="497.0" />
+      <point x="65.25" y="236.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="359.24999999999955" y="721.0000000000002" />
+  <SelectedNodes>
+    <node>ASSI4.Person</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
